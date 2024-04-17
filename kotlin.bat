@@ -1,0 +1,1 @@
+java -jar .\swagger-codegen-cli.jar generate --input-spec .\api-docs.json -l kotlin-client --ignore-file-override=.\.swagger-codegen-ignore  -o .\output\kotlin
